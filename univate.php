@@ -18,7 +18,7 @@ PRODID:-//Symbion//Event Calendar//EN\n";
 // loop over events
 foreach ($data as $event):
     // go through events from a specific location
-    if($event["location_name"] == "univate") 
+    if($event["location_id"] == "univate") 
 $output .=
 "BEGIN:VTIMEZONE
 TZID:Europe/Copenhagen
